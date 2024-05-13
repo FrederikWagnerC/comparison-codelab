@@ -43,3 +43,22 @@ button {
   background-color: grey;
   border-radius: 0.5rem;
 }
+
+.formValidBorder {
+  border: 2px solid green;
+}
+
+.formValidBorder:focus {
+  border: 2px solid green;
+  outline: none;
+}
+
+.formInvalidBorder {
+  border: 2px solid red;
+}
+
+.formInvalidBorder:focus {
+  border: 2px solid red;
+  outline: none;
+}
+

@@ -8,20 +8,29 @@ const E = 40;
 
 // Opgave 1: skriv et expression der viser true når A er lig med B eller A er lig med D.
 
-if ( /*..dit expression Her*/ ) {
-    console.log('statement true!');
+if ( A === B || A === D ) {
+    console.log('Opgave 1');
 }
 
 
 //opgave 2: skrive en If then statement der bliver TRUE når  A er større end B og A er mindre end E.
 
-
+if ( A > B || A < E ) {
+    console.log('Opgave 2');
+}
 
 
 //opgave 3: Skriv en If then statement med  && og  || der kun er sand når alle expressions er sande.
 
+if ( A === D && B == C || E === B + A) {
+    console.log('Opgave 3');
+}
 
 
 
 
 //opgave 4: Skriv en If then statement der kan finde ud af om F er "undefined" eller har en værdi, ved at bruge !.
+
+if (!F) {
+    console.log('Opgave 4');
+}
